@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'jose',
             'email' => 'jose@teste',
+            'password' => '12345678'
         ]);
 
         Board::factory()->create([
